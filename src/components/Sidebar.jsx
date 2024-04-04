@@ -17,14 +17,17 @@ function Sidebar() {
             <div className=" border-bottom sidebar-items" key={index}>
               <h3 className="sidebar-heading">{item.heading}</h3>
 
-              {item.content.map((subItem, subIndex) => (
+              {item.content.map((subItem, subIndex) => {
+                const Icon = subItem.icon;
+                return (
                 <div key={subIndex}>
                   <div className="sidebar-sub-content">
-                    <span className="sidebar-sub-content-icon">{subItem.icon} </span>
+                    <span className="sidebar-sub-content-icon"><Icon/> </span>
                     <span className="sidebar-sub-content-name">{subItem.name}</span>
                   </div>
                 </div>
-              ))}
+                )
+              })}
             </div>
           ))}
         </div>

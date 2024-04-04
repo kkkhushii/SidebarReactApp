@@ -13,48 +13,48 @@ import {
 const menuItems = [
   {
     id: 1,
-    icon: <IconBoxMultiple />,
+    icon: IconBoxMultiple,
     name: 'Dashboard'
   },
 
   {
     id: 2,
-    icon: <IconNotes />,
+    icon: IconNotes,
     name: 'Pages'
   },
   {
     id: 3,
-    icon: <IconPalette />,
+    icon: IconPalette,
     name: 'Forms'
   },
   {
     id: 4,
-    icon: <IconSquare />,
+    icon: IconSquare,
     name: 'Tables'
   },
   {
     id: 5,
-    icon: <IconChartInfographic />,
+    icon: IconChartInfographic,
     name: 'Charts'
   },
   {
     id: 6,
-    icon: <IconCategory />,
+    icon: IconCategory,
     name: 'Ui components'
   },
   {
     id: 7,
-    icon: <IconArchive />,
+    icon: IconArchive,
     name: 'Coponents'
   },
   {
     id: 8,
-    icon: <IconLock />,
+    icon: IconLock,
     name: 'Authentication'
   },
   {
     id: 9,
-    icon: <IconWallpaper />,
+    icon: IconWallpaper,
     name: 'Docs'
   }
 ];

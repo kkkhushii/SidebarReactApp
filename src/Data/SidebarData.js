@@ -49,11 +49,11 @@ const SidebarContent = [
         content: [
           {
             name: 'Dashboard 1',
-            icon: <IconAtom />
+            icon: IconAtom
           },
           {
             name: 'Dashboard 2',
-            icon: <IconChartBar />
+            icon: IconChartBar
           }
         ]
       },
@@ -62,47 +62,47 @@ const SidebarContent = [
         content: [
           {
             name: 'Ecommerece',
-            icon: <IconGardenCart />
+            icon: IconGardenCart
           },
           {
             name: 'Blogs',
-            icon: <IconCategory />
+            icon: IconCategory
           },
           {
             name: 'UserProfile',
-            icon: <IconUserCircle />
+            icon: IconUserCircle
           },
           {
             name: 'Email',
-            icon: <IconMail />
+            icon: IconMail
           },
           {
             name: 'Calender',
-            icon: <IconCalendar />
+            icon: IconCalendar
           },
           {
             name: 'Kanban',
-            icon: <IconBrandTrello />
+            icon: IconBrandTrello
           },
           {
             name: 'Chats',
-            icon: <IconBrandHipchat />
+            icon: IconBrandHipchat
           },
           {
             name: 'Notes',
-            icon: <IconNotes />
+            icon: IconNotes
           },
           {
             name: 'Contact Table',
-            icon: <IconAddressBook />
+            icon: IconAddressBook
           },
           {
             name: 'Contact List',
-            icon: <IconPhonePlus />
+            icon: IconPhonePlus
           },
           {
             name: 'Invoice',
-            icon: <IconInvoice />
+            icon: IconInvoice
           }
         ]
       }
@@ -121,43 +121,43 @@ const SidebarContent = [
         content: [
           {
             name: 'Animation',
-            icon: <IconUserPlus />
+            icon: IconUserPlus
           },
           {
             name: 'Search Result',
-            icon: <IconSearch />
+            icon: IconSearch
           },
           {
             name: 'Gallery',
-            icon: <IconBrandAppgallery />
+            icon: IconBrandAppgallery
           },
           {
             name: 'Tree View',
-            icon: <IconTree />
+            icon: IconTree
           },
           {
             name: 'Block Ui',
-            icon: <IconBrandTabler />
+            icon: IconBrandTabler
           },
           {
             name: 'Session TimeOut',
-            icon: <IconCalendarQuestion />
+            icon: IconCalendarQuestion
           },
           {
             name: 'Pricing',
-            icon: <IconReceipt2 />
+            icon: IconReceipt2
           },
           {
             name: 'FAQ',
-            icon: <IconQuestionMark />
+            icon: IconQuestionMark
           },
           {
             name: 'Account Setting',
-            icon: <IconReceipt2 />
+            icon: IconReceipt2
           },
           {
             name: 'Starter',
-            icon: <IconQuestionMark />
+            icon: IconQuestionMark
           }
         ]
       },
@@ -166,11 +166,11 @@ const SidebarContent = [
         content: [
           {
             name: 'Tabler Icon',
-            icon: <IconBrandAppgallery />
+            icon: IconBrandAppgallery
           },
           {
             name: 'Solar Icon',
-            icon: <IconInvoice />
+            icon: IconInvoice
           }
         ]
       },
@@ -179,27 +179,27 @@ const SidebarContent = [
         content: [
           {
             name: 'Cards',
-            icon: <IconCards />
+            icon: IconCards
           },
           {
             name: 'Banner',
-            icon: <IconUserCircle />
+            icon: IconUserCircle
           },
           {
             name: 'Charts',
-            icon: <IconChartBar />
+            icon: IconChartBar
           },
           {
             name: 'Feeds',
-            icon: <IconNeedle />
+            icon: IconNeedle
           },
           {
             name: 'Apps',
-            icon: <IconNeedle />
+            icon: IconNeedle
           },
           {
             name: 'Data',
-            icon: <IconReceipt2 />
+            icon: IconReceipt2
           }
         ]
       }
@@ -214,19 +214,19 @@ const SidebarContent = [
         content: [
           {
             name: 'Forms Elements',
-            icon: <IconForms />
+            icon: IconForms
           },
           {
             name: 'Forms Input',
-            icon: <IconInputSearch />
+            icon: IconInputSearch
           },
           {
             name: 'Forms Wizard',
-            icon: <IconForms />
+            icon: IconForms
           },
           {
             name: 'Forms Repeater',
-            icon: <IconInputSearch />
+            icon: IconInputSearch
           }
         ]
       },
@@ -235,15 +235,15 @@ const SidebarContent = [
         content: [
           {
             name: 'Drop Zone',
-            icon: <IconForms />
+            icon: IconForms
           },
           {
             name: 'Form Mask',
-            icon: <IconPokeball />
+            icon: IconPokeball
           },
           {
             name: 'Form Typehead',
-            icon: <IconForms />
+            icon: IconForms
           }
         ]
       },
@@ -252,11 +252,11 @@ const SidebarContent = [
         content: [
           {
             name: 'BT Validation',
-            icon: <IconLocationBroken />
+            icon: IconLocationBroken
           },
           {
             name: 'Custom Validation',
-            icon: <IconLocationBroken />
+            icon: IconLocationBroken
           }
         ]
       },
@@ -265,23 +265,23 @@ const SidebarContent = [
         content: [
           {
             name: 'Colorpicker',
-            icon: <IconPalette />
+            icon: IconPalette
           },
           {
             name: 'Date time picker',
-            icon: <IconCalendarDue />
+            icon: IconCalendarDue
           },
           {
             name: 'Rangepicker',
-            icon: <IconPalette />
+            icon: IconPalette
           },
           {
             name: 'BT Datepicker',
-            icon: <IconCalendarDue />
+            icon: IconCalendarDue
           },
           {
             name: 'MT Datepicker',
-            icon: <IconCalendarDue />
+            icon: IconCalendarDue
           }
         ]
       },
@@ -290,11 +290,11 @@ const SidebarContent = [
         content: [
           {
             name: 'Quill Editor',
-            icon: <IconBrandSnapseed />
+            icon: IconBrandSnapseed
           },
           {
             name: 'Tinymce Edtor',
-            icon: <IconBrandSnapseed />
+            icon: IconBrandSnapseed
           }
         ]
       }
@@ -309,19 +309,19 @@ const SidebarContent = [
         content: [
           {
             name: 'Basic Table',
-            icon: <IconBorderAll />
+            icon: IconBorderAll
           },
           {
             name: 'Dark Table',
-            icon: <IconBorderAll />
+            icon: IconBorderAll
           },
           {
             name: 'Sizing Table',
-            icon: <IconBorderAll />
+            icon: IconBorderAll
           },
           {
             name: 'Coloured Table',
-            icon: <IconBorderAll />
+            icon: IconBorderAll
           }
         ]
       },
@@ -330,15 +330,15 @@ const SidebarContent = [
         content: [
           {
             name: 'Basic',
-            icon: <IconDatabaseMinus />
+            icon: IconDatabaseMinus
           },
           {
             name: 'Api',
-            icon: <IconDatabaseMinus />
+            icon: IconDatabaseMinus
           },
           {
             name: 'Advanced',
-            icon: <IconDatabaseMinus />
+            icon: IconDatabaseMinus
           }
         ]
       }
@@ -353,27 +353,27 @@ const SidebarContent = [
         content: [
           {
             name: 'Line Chart',
-            icon: <IconChartPie2 />
+            icon: IconChartPie2
           },
           {
             name: 'Area chart',
-            icon: <IconChartPie2 />
+            icon: IconChartPie2
           },
           {
             name: 'Bar chart',
-            icon: <IconChartPie2 />
+            icon: IconChartPie2
           },
           {
             name: 'pie chart',
-            icon: <IconChartPie2 />
+            icon: IconChartPie2
           },
           {
             name: 'redial chart',
-            icon: <IconChartPie2 />
+            icon: IconChartPie2
           },
           {
             name: 'radar chart',
-            icon: <IconChartPie2 />
+            icon: IconChartPie2
           }
         ]
       }
@@ -388,83 +388,83 @@ const SidebarContent = [
         content: [
           {
             name: 'Accordian',
-            icon: <IconBoxAlignBottomLeft />
+            icon: IconBoxAlignBottomLeft
           },
           {
             name: 'Badge',
-            icon: <IconBoxAlignBottomLeft />
+            icon: IconBoxAlignBottomLeft
           },
           {
             name: 'Button',
-            icon: <IconBoxAlignBottomLeft />
+            icon: IconBoxAlignBottomLeft
           },
           {
             name: 'Dropdowns',
-            icon: <IconChartPie2 />
+            icon: IconChartPie2
           },
           {
             name: 'Modals',
-            icon: <IconChartPie2 />
+            icon: IconChartPie2
           },
           {
             name: 'Tab',
-            icon: <IconBrandSnapseed />
+            icon: IconBrandSnapseed
           },
           {
             name: 'Tooltip',
-            icon: <IconForms />
+            icon: IconForms
           },
           {
             name: 'Notification',
-            icon: <IconForms />
+            icon: IconForms
           },
           {
             name: 'Progressbar',
-            icon: <IconChartBar />
+            icon: IconChartBar
           },
           {
             name: 'Pagination',
-            icon: <IconChartBar />
+            icon: IconChartBar
           },
           {
             name: 'Typography',
-            icon: <IconForms />
+            icon: IconForms
           },
           {
             name: 'Bootstrap UI',
-            icon: <IconForms />
+            icon: IconForms
           },
           {
             name: 'Breadcrumps',
-            icon: <IconBoxAlignBottomLeft />
+            icon: IconBoxAlignBottomLeft
           },
           {
             name: 'Offcanvas',
-            icon: <IconBrandSnapseed />
+            icon: IconBrandSnapseed
           },
           {
             name: 'Lists',
-            icon: <IconBoxAlignBottomLeft />
+            icon: IconBoxAlignBottomLeft
           },
           {
             name: 'Grid',
-            icon: <IconBrandSnapseed />
+            icon: IconBrandSnapseed
           },
           {
             name: 'Carousel',
-            icon: <IconBrandSnapseed />
+            icon: IconBrandSnapseed
           },
           {
             name: 'Scrollspy',
-            icon: <IconReceipt2 />
+            icon: IconReceipt2
           },
           {
             name: 'Spinner',
-            icon: <IconReceipt2 />
+            icon: IconReceipt2
           },
           {
             name: 'Link',
-            icon: <IconReceipt2 />
+            icon: IconReceipt2
           }
         ]
       }
@@ -479,26 +479,26 @@ const SidebarContent = [
         content: [
           {
             name: 'Sweet Alert',
-            icon: <IconFlag />
+            icon: IconFlag
           },
           {
             name: 'Nestable',
-            icon: <IconFlag />
+            icon: IconFlag
           },
 
           {
             name: 'Noui slider',
-            icon: <IconFlag />
+            icon: IconFlag
           },
 
           {
             name: 'Rating',
-            icon: <IconFlag />
+            icon: IconFlag
           },
 
           {
             name: 'Toastr',
-            icon: <IconFlag />
+            icon: IconFlag
           }
         ]
       },
@@ -507,19 +507,19 @@ const SidebarContent = [
         content: [
           {
             name: 'Basic Cards',
-            icon: <IconGiftCard />
+            icon: IconGiftCard
           },
           {
             name: 'Custom Cards',
-            icon: <IconGiftCard />
+            icon: IconGiftCard
           },
           {
             name: 'Weather Cards',
-            icon: <IconGiftCard />
+            icon: IconGiftCard
           },
           {
             name: 'Draggable Cards',
-            icon: <IconGiftCard />
+            icon: IconGiftCard
           }
         ]
       }
@@ -534,43 +534,43 @@ const SidebarContent = [
         content: [
           {
             name: 'Error',
-            icon: <IconBug />
+            icon: IconBug
           },
           {
             name: 'Side Login',
-            icon: <IconLogin2 />
+            icon: IconLogin2
           },
           {
             name: 'Boxed Login',
-            icon: <IconBug />
+            icon: IconBug
           },
           {
             name: 'Side Register',
-            icon: <IconBug />
+            icon: IconBug
           },
           {
             name: 'Boxed Register',
-            icon: <IconLogin2 />
+            icon: IconLogin2
           },
           {
             name: 'Side Forgot password',
-            icon: <IconLogin2 />
+            icon: IconLogin2
           },
           {
             name: 'Boxed Forgot password',
-            icon: <IconBug />
+            icon: IconBug
           },
           {
             name: 'Side two Steps',
-            icon: <IconBug />
+            icon: IconBug
           },
           {
             name: 'Boxed  two Steps',
-            icon: <IconFlag />
+            icon: IconFlag
           },
           {
             name: 'Maintanance',
-            icon: <IconFlag />
+            icon: IconFlag
           }
         ]
       }
@@ -585,7 +585,7 @@ const SidebarContent = [
         content: [
           {
             name: 'Getting Started',
-            icon: <IconFlag />
+            icon: IconFlag
           }
         ]
       },
@@ -594,7 +594,7 @@ const SidebarContent = [
         content: [
           {
             name: 'Menu Level',
-            icon: <IconFlag />
+            icon: IconFlag
           }
         ]
       },
@@ -603,23 +603,23 @@ const SidebarContent = [
         content: [
           {
             name: 'Applications',
-            icon: <IconFlag />
+            icon: IconFlag
           },
           {
             name: 'Form Options',
-            icon: <IconFlag />
+            icon: IconFlag
           },
           {
             name: 'Table Variations',
-            icon: <IconFlag />
+            icon: IconFlag
           },
           {
             name: 'Charts Selection',
-            icon: <IconFlag />
+            icon: IconFlag
           },
           {
             name: 'Widgets',
-            icon: <IconFlag />
+            icon: IconFlag
           }
         ]
       }
