@@ -1,17 +1,15 @@
 import './App.css';
-import Sidebar from './components/Sidebar';
-import IconSidebar from './components/IconSidebar';
-import { IconProvider } from '../src/ContextApi/IconContext';
+// import Sidebar from './components/Sidebar';
+// import IconSidebar from './components/IconSidebar';
+// import { IconProvider } from '../src/ContextApi/IconContext';
+import Page from '../src/Page';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <IconProvider>
-      <div className="containers">
-        <IconSidebar />
-        <Sidebar />
-      </div>
-    </IconProvider>
+    <div className="app">
+      <Page />
+    </div>
   );
 }
 

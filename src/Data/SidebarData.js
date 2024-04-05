@@ -46,7 +46,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'DASHBOARD',
-        content: [
+        children: [
           {
             name: 'Dashboard 1',
             icon: IconAtom
@@ -59,14 +59,36 @@ const SidebarContent = [
       },
       {
         heading: 'APPS',
-        content: [
+        children: [
           {
             name: 'Ecommerece',
-            icon: IconGardenCart
+            icon: IconGardenCart,
+            children: [
+              {
+                name: 'shop'
+              },
+              {
+                name: 'details'
+              },
+              {
+                name: 'List'
+              },
+              {
+                name: 'Checkout'
+              }
+            ]
           },
           {
             name: 'Blogs',
-            icon: IconCategory
+            icon: IconCategory,
+            children: [
+              {
+                name: 'Blog Post'
+              },
+              {
+                name: 'Blog Detail'
+              }
+            ]
           },
           {
             name: 'UserProfile',
@@ -118,7 +140,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'PAGES',
-        content: [
+        children: [
           {
             name: 'Animation',
             icon: IconUserPlus
@@ -163,7 +185,7 @@ const SidebarContent = [
       },
       {
         heading: 'ICONS',
-        content: [
+        children: [
           {
             name: 'Tabler Icon',
             icon: IconBrandAppgallery
@@ -176,7 +198,7 @@ const SidebarContent = [
       },
       {
         heading: 'WIDGET',
-        content: [
+        children: [
           {
             name: 'Cards',
             icon: IconCards
@@ -211,7 +233,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'Forms',
-        content: [
+        children: [
           {
             name: 'Forms Elements',
             icon: IconForms
@@ -232,7 +254,7 @@ const SidebarContent = [
       },
       {
         heading: 'ADDONS',
-        content: [
+        children: [
           {
             name: 'Drop Zone',
             icon: IconForms
@@ -249,7 +271,7 @@ const SidebarContent = [
       },
       {
         heading: 'VALIDATION',
-        content: [
+        children: [
           {
             name: 'BT Validation',
             icon: IconLocationBroken
@@ -262,7 +284,7 @@ const SidebarContent = [
       },
       {
         heading: 'PICKERS',
-        content: [
+        children: [
           {
             name: 'Colorpicker',
             icon: IconPalette
@@ -287,7 +309,7 @@ const SidebarContent = [
       },
       {
         heading: 'EDITORS',
-        content: [
+        children: [
           {
             name: 'Quill Editor',
             icon: IconBrandSnapseed
@@ -306,7 +328,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'BOOTSTRAP TABLES',
-        content: [
+        children: [
           {
             name: 'Basic Table',
             icon: IconBorderAll
@@ -327,7 +349,7 @@ const SidebarContent = [
       },
       {
         heading: 'DATATABLES',
-        content: [
+        children: [
           {
             name: 'Basic',
             icon: IconDatabaseMinus
@@ -350,7 +372,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'CHARTS',
-        content: [
+        children: [
           {
             name: 'Line Chart',
             icon: IconChartPie2
@@ -385,7 +407,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'UI',
-        content: [
+        children: [
           {
             name: 'Accordian',
             icon: IconBoxAlignBottomLeft
@@ -476,7 +498,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'COMPONENTS',
-        content: [
+        children: [
           {
             name: 'Sweet Alert',
             icon: IconFlag
@@ -504,7 +526,7 @@ const SidebarContent = [
       },
       {
         heading: 'CARDS',
-        content: [
+        children: [
           {
             name: 'Basic Cards',
             icon: IconGiftCard
@@ -531,7 +553,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'AUTH',
-        content: [
+        children: [
           {
             name: 'Error',
             icon: IconBug
@@ -582,7 +604,7 @@ const SidebarContent = [
     items: [
       {
         heading: 'DOCUMENTATION',
-        content: [
+        children: [
           {
             name: 'Getting Started',
             icon: IconFlag
@@ -591,16 +613,40 @@ const SidebarContent = [
       },
       {
         heading: 'MULTI LEVEL',
-        content: [
+        children: [
           {
             name: 'Menu Level',
-            icon: IconFlag
+            icon: IconFlag,
+            children: [
+              {
+                name: 'Level 1'
+              },
+              {
+                name: 'Level 1.1',
+                children: [
+                  {
+                    name: 'Level 2'
+                  },
+                  {
+                    name: 'Level 2.1',
+                    children: [
+                      {
+                        name: 'Level 3'
+                      },
+                      {
+                        name: 'Level 3.1'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
       {
         heading: 'MORE OPTIONS',
-        content: [
+        children: [
           {
             name: 'Applications',
             icon: IconFlag

@@ -3,6 +3,8 @@ import logo from '../assets/logo.svg';
 import { useContext } from 'react';
 import SidebarContent from '../Data/SidebarData';
 import '../Styles/sidebar.css';
+import SidebarHeading from './SidebarHeading';
+import ChildrenData from './ChildrenData';
 
 function Sidebar() {
   const { selectedIconId } = useContext(IconContext);
@@ -15,19 +17,12 @@ function Sidebar() {
         <div className="sidebar-content">
           {selectedContent.items.map((item, index) => (
             <div className=" border-bottom sidebar-items" key={index}>
-              <h3 className="sidebar-heading">{item.heading}</h3>
-
-              {item.content.map((subItem, subIndex) => {
-                const Icon = subItem.icon;
-                return (
-                <div key={subIndex}>
-                  <div className="sidebar-sub-content">
-                    <span className="sidebar-sub-content-icon"><Icon/> </span>
-                    <span className="sidebar-sub-content-name">{subItem.name}</span>
-                  </div>
-                </div>
-                )
-              })}
+              {/* //display heading */}
+              <SidebarHeading text={item.heading} />  
+              {/* display child component */}
+              {item.children.map((subItem, subIndex) => (
+                <ChildrenData key={subIndex} item={subItem} />
+              ))}
             </div>
           ))}
         </div>

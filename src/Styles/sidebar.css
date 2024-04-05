@@ -15,7 +15,12 @@ img {
   padding: 10px;
   color: #29343d;
 }
-
+.sidebar-heading {
+  font-size: 12px;
+  font-weight: 600;
+  color: #29343d;
+  font-family: manrope, sans-serif;
+}
 .sidebar-items > h3 {
   font-size: 14px;
   font-weight: 600;

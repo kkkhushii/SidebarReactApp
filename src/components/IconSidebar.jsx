@@ -11,15 +11,15 @@ function IconSidebar() {
       <ul className="mini-nav-ul">
         <li className="mini-nav-li">
           {menuItems.map((icon) => {
-            const Icon = icon.icon
+            const Icon = icon.icon;
             return (
               <div key={icon.id} onClick={() => setSelectedIconId(icon.id)}>
                 <span className={`li-icons ${selectedIconId === icon.id ? 'active' : ''}`}>
-                <Icon/>
+                  <Icon />
                 </span>
               </div>
-            )
-            })}
+            );
+          })}
         </li>
       </ul>
     </div>
