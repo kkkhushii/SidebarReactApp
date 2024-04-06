@@ -28,7 +28,7 @@ img {
   padding: 7px 0;
 }
 .sidebar-sub-content {
-  margin-left: 20px;
+  margin-left: 18px;
   display: flex;
   gap: 0.5rem;
   margin-bottom: 20px;
@@ -49,4 +49,16 @@ img {
   font-weight: 400;
   font-size: 15px;
   text-align: center;
+}
+/* .sidebar-sub-content-expanded
+{
+  display: flex;
+  background-color: aliceblue;
+
+} */
+.icon-small{
+  background-color: #7b8893;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
 }

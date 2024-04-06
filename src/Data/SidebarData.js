@@ -226,7 +226,7 @@ const SidebarContent = [
         ]
       }
     ]
-  }, //thIRD END
+  }, //second END
   {
     id: 3,
     name: 'Forms',
@@ -321,7 +321,7 @@ const SidebarContent = [
         ]
       }
     ]
-  }, //FORTH END
+  }, //third END
   {
     id: 4,
     name: 'Tables',
@@ -365,7 +365,7 @@ const SidebarContent = [
         ]
       }
     ]
-  }, // fifth end
+  }, // forth end
   {
     id: 5,
     name: 'Charts',
@@ -400,7 +400,7 @@ const SidebarContent = [
         ]
       }
     ]
-  },
+  },// fifth
   {
     id: 6,
     name: 'Ui components',
@@ -491,7 +491,7 @@ const SidebarContent = [
         ]
       }
     ]
-  }, //seventh end
+  }, //six end
   {
     id: 7,
     name: 'Coponents',
@@ -546,7 +546,7 @@ const SidebarContent = [
         ]
       }
     ]
-  }, // end eight
+  }, // seven eight
   {
     id: 8,
     name: 'Authentication',
@@ -556,7 +556,7 @@ const SidebarContent = [
         children: [
           {
             name: 'Error',
-            icon: IconBug
+            icon: IconBug,
           },
           {
             name: 'Side Login',
@@ -597,7 +597,7 @@ const SidebarContent = [
         ]
       }
     ]
-  }, // ninth endd
+  }, // eight endd
   {
     id: 9,
     name: 'Docs',
