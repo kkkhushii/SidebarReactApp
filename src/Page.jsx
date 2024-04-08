@@ -9,6 +9,7 @@ function Page() {
       <div className="containers">
         <IconSidebar />
         <Sidebar />
+    
       </div>
     </IconProvider>
   );

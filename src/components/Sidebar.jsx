@@ -3,9 +3,10 @@ import logo from '../assets/logo.svg';
 import { useContext } from 'react';
 import SidebarContent from '../Data/SidebarData';
 import '../Styles/sidebar.css';
-import SidebarHeading from './SidebarHeading';
-import ChildrenData from './ChildrenItem';
-import ChildrenCollapse from './ChildrenCollapse';
+import NavHeading from './NavHeading';
+import NavItems from './NavItems';
+import NavCollapse from './NavCollapse';
+
 
 function Sidebar() {
   const { selectedIconId } = useContext(IconContext);
@@ -18,15 +19,15 @@ function Sidebar() {
         <div className="sidebar-content">
           {selectedContent.items.map((item, index) => (
             <div className=" border-bottom sidebar-items mb-3" key={index}>
-              <SidebarHeading text={item.heading} /> 
+              <NavHeading text={item.heading} /> 
               {
               <>
                    {item.children && item.children.map((child, index) => (
                     <div key={index}>
                     {child.children ? (
-                       <ChildrenCollapse item={child} />
+                       <NavCollapse item={child} />
                     ) : (
-                      <ChildrenData item={child}  />
+                      <NavItems item={child}  />
                    )}
                   </div>
                 ))}

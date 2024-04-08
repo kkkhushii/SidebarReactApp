@@ -28,7 +28,7 @@ img {
   padding: 7px 0;
 }
 .sidebar-sub-content {
-  margin-left: 18px;
+  margin-left: 5px;
   display: flex;
   gap: 0.5rem;
   margin-bottom: 20px;
@@ -36,7 +36,7 @@ img {
     color 0.3s,
     padding 0.3s;
   cursor: pointer;
-  color: #29343d;
+  color: #010203;
   font-weight: 300;
 }
 .sidebar-sub-content:hover {
@@ -56,3 +56,33 @@ img {
   width: 10px;
   height: 10px;
 }
+
+
+/* .sidebar-sub-content {
+  display: flex;
+  align-items: center;
+} */
+
+.sidebar-dot {
+  margin-right: 0px; 
+}
+
+.sidebar-sub-content-name {
+  margin-left: 0px; 
+}
+
+.sidebar-sub-content-expanded {
+  margin-left: 0px;
+}
+.classForflex{
+  display: flex;
+  align-items: center;
+
+}
+.sidebardivs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+

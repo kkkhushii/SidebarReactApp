@@ -38,6 +38,8 @@ import {
   IconBug,
   IconLogin2
 } from '@tabler/icons-react';
+import { uniqueId } from 'lodash';
+
 
 const SidebarContent = [
   {
@@ -62,31 +64,47 @@ const SidebarContent = [
         children: [
           {
             name: 'Ecommerece',
+            id:uniqueId(),
             icon: IconGardenCart,
+          
             children: [
               {
+                id:uniqueId(),
                 name: 'shop'
+                
               },
               {
-                name: 'details'
+                id:uniqueId(),
+                name: 'details',
+                
               },
               {
-                name: 'List'
+                id:uniqueId(),
+                name: 'List',
+               
               },
               {
-                name: 'Checkout'
+                id:uniqueId(),
+                name: 'Checkout',
+               
               }
             ]
           },
           {
             name: 'Blogs',
+            id:uniqueId(),
+
             icon: IconCategory,
             children: [
               {
-                name: 'Blog Post'
+                id:uniqueId(),
+                name: 'Blog Post',
+               
               },
               {
-                name: 'Blog Detail'
+                id:uniqueId(),
+                name: 'Blog Detail',
+               
               }
             ]
           },
@@ -617,24 +635,38 @@ const SidebarContent = [
           {
             name: 'Menu Level',
             icon: IconFlag,
+            id:uniqueId(),
+
+          
             children: [
               {
+                id:uniqueId(),
                 name: 'Level 1'
+                
               },
               {
+                id:uniqueId(),
                 name: 'Level 1.1',
                 children: [
                   {
+                    id:uniqueId(),
                     name: 'Level 2'
+                    
+                    
                   },
                   {
+                    id:uniqueId(),
                     name: 'Level 2.1',
                     children: [
                       {
+                        id:uniqueId(),
                         name: 'Level 3'
+                      
                       },
                       {
+                        id:uniqueId(),
                         name: 'Level 3.1'
+                       
                       }
                     ]
                   }
